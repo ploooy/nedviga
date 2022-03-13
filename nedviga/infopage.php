@@ -46,7 +46,7 @@
                         <? elseif(!strcmp($obj_type, 'house')): ?>
                             <ul class="infopage-list">
                             <li><span class="bold">Комнаты: </span><?=$obj['rooms']?></li>
-                            <li><span class="bold">Этажи: </span><?=$obj['floor']?> из <?=$obj['top_floor']?></li>
+                             <li><span class="bold">Этажи: </span><?=$obj['floors']?></li>
                             <li><span class="bold">Площадь дома: </span><?=$obj['house_area']?> кв.м.</li>
                             <li><span class="bold">Площадь участка: </span><?=$obj['plot_area']?> кв.м.</li>
                             <li><span class="bold">Год постройки: </span><?=$obj['construction_year']?></li>
